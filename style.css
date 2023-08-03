@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    color: #FFF;
+    background: #F55A5A;
+    font-size: 14px;
+    letter-spacing: -1.085px;
+    margin-bottom: 64px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    max-width: 570px;
+    color: #2B283A;
+    margin: 36px auto;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.exp-container {
+    padding: 19px
+}
+
+.location {
+    font-size: 10.24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.map-link {
+    color: #918E9B;
+    font-size: 10px;
+}
+
+.photo {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.gps-container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.gps-icon {
+    width: 7px;
+    height: 10px;
+}
+
+.title {
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.period {
+    font-size: 10px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.description {
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 9px;
+}
+
+.location-container, .gps-icon,
+.location, .map-link {
+    margin: 0;
+}
