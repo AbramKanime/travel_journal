@@ -11,9 +11,9 @@ export default function App() {
         />
     })
     return (
-        <main>
+        <>
             <Header />
             {newExperience}
-        </main>
+        </>
     )
 }
